@@ -1,0 +1,48 @@
+#! /usr/bin/python3
+
+Students_Math =["Ali_M", "Mahdi_M", "Mobin_M"]
+def ave(*nums):
+	return sum(nums) / len(nums)
+
+Ali_M = input("Enter the Ali's Math lesson mark: ")
+Mahdi_M = input("Enter the Mahdi's Math lesson mark: ")
+Mobin_M = input("Enter the Mobin's Math lesson mark: ")
+Ali_M = int(Ali_M)
+Mahdi_M = int(Mahdi_M)
+Mobin_M = int(Mobin_M)
+print("Average of the class in Math lesson")
+print(ave(Ali_M, Mahdi_M, Mobin_M))
+
+Students_Science =["Ali_S", "Mahdi_S", "Mobin_S"]
+def ave(*nums):
+	return sum(nums) / len(nums)
+Ali_S = input("Enter the Ali's Science lesson mark: ")
+Mahdi_S = input("Enter the Mahdi's Science lesson mark: ")
+Mobin_S = input("Enter the Mobin's Science lesson mark: ")
+Ali_S = int(Ali_S)
+Mahdi_S = int(Mahdi_S)
+Mobin_S = int(Mobin_S)
+print("Average of the class in Science lesson")
+print(ave(Ali_S, Mahdi_S, Mobin_S))
+
+Students_English =["Ali_E", "Mahdi_E", "Mobin_E"]
+def ave(*nums):
+	return sum(nums) / len(nums)
+Ali_E = input("Enter the Ali's English lesson mark: ")
+Mahdi_E = input("Enter the Mahdi's English lesson mark: ")
+Mobin_E = input("Enter the Mobin's English lesson mark: ")
+Ali_E = int(Ali_E)
+Mahdi_E = int(Mahdi_E)
+Mobin_E = int(Mobin_E)
+print("Average of the class in English lesson")
+print(ave(Ali_E, Mahdi_E, Mobin_E))
+
+print("Average of Ali in three lessons")
+print(ave(Ali_M, Ali_S, Ali_E))
+
+print("Average of Mahdi in three lessons")
+print(ave(Mahdi_M, Mahdi_S, Mahdi_E))
+
+print("Average of Mobin in three lessons")
+print(ave(Mobin_M, Mobin_S, Mobin_E))
+
